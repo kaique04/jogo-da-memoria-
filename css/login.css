@@ -16,9 +16,8 @@
   
   .login__header img {
     width: 250px;
+    margin-bottom: 10px;
   }
-  
-  
   
   .login__header h1 {
     color: #333;
@@ -38,7 +37,7 @@
   }
   
   .login__button {
-    background-color: #00b5cc;
+    background-color: #ff0000b7;
     border: 3px solid #b2df28;
     border-radius: 8px;
     color: #fff;
@@ -47,6 +46,11 @@
     max-width: 300px;
     padding: 15px;
     width: 100%;
+    transition: 0.8s;
+  }
+
+  .login__button:hover{
+    transform: scale(1.05);
   }
   
   .login__button:disabled {
